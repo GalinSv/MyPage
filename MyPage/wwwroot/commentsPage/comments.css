@@ -1,0 +1,8 @@
+.comment-card {
+  border-radius: 0.75rem;
+}
+
+#comment-success,
+#comment-error {
+  font-size: 0.9rem;
+}

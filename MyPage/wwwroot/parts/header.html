@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="../cvPage/cv.html">My Site</a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="../cvPage/cv.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../galleryPage/gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../commentsPage/comments.html">Comments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contactPage/contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item ms-lg-3" id="nav-login">
+                    <a class="btn btn-outline-light btn-sm me-2" href="/Auth/Login">Login</a>
+                </li>
+                <li class="nav-item" id="nav-register">
+                    <a class="btn btn-warning btn-sm" href="/Auth/Register">Register</a>
+                </li>
+
+                <li class="nav-item d-none" id="nav-user">
+                    <span class="navbar-text text-light me-2" id="nav-username"></span>
+                </li>
+                <li class="nav-item d-none" id="nav-logout">
+                    <a class="btn btn-danger btn-sm" href="/Auth/Logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
