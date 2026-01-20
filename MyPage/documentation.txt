@@ -1,0 +1,90 @@
+Project Documentation 
+
+1. Introduction
+
+This document describes a personal website. The goal is to demonstrate a working client–server web application.
+
+2. System Overview
+
+The system consists of three main parts:
+
+Frontend – user interface in the browser
+
+Backend – server-side logic and API
+
+Database – data storage
+
+The site contains the following pages:
+
+ CV page
+ Gallery page
+ Contact page
+ Comments page
+
+ 3. Technologies Used
+
+  Frontend
+
+	 HTML5
+	 CSS3
+	 JavaScript
+	 jQuery
+	 AJAX
+	 Bootstrap 
+
+
+  Backend
+
+	 ASP.NET Core MVC (.NET 8)
+	  Entity Framework Core
+	 Cookie-based authentication
+
+
+ Database
+
+	 SQL Server LocalDB
+	 Tables: Users, Comments
+ 
+ 4. Architecture
+
+The application follows a client–server architecture:
+
+	The frontend runs in the browser and sends HTTP requests using AJAX
+
+	The backend processes requests using MVC controllers
+
+	Data is exchanged in JSON format
+
+	The database is accessed through Entity Framework Core
+
+
+ 5. Functionality
+
+ 5.1. Authentication
+
+ Users can register and log in
+ Authentication is handled with cookies
+ Each logged-in user has a unique username
+
+ 5.2 Comments
+
+ Only logged-in users can write comments
+ Comments are saved in the database
+ Each comment is linked to the user who created it
+ Users can edit and delete only their own comments
+ 
+  Comments are can be:
+
+   Sorted by date 
+   Sorted by username 
+
+
+ 6. Conclusion
+
+The project successfully demonstrates:
+
+ Client–server architecture
+ MVC pattern usage
+ Database persistence
+ Authentication and authorization
+ Responsive web design
